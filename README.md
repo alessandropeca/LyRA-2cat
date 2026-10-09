@@ -1,6 +1,6 @@
-# LYRA: Python Likelihood Ratio for AGN-DB
+# LyRA_sp: two-catalog likelihood-ratio matching
 
-LYRA matches sources between astronomical catalogs using positional information and, optionally, magnitude priors from a likelihood-ratio analysis. It can work with overlapping or non-overlapping catalogs and with different positional uncertainties. It extends LYR (Nanni et al. 2020; Peca et al. 2021).
+LyRA_sp matches sources between a primary and a secondary astronomical catalog using positional information and, optionally, magnitude priors from a likelihood-ratio analysis. This variant requires both catalogs as inputs. It can work with overlapping or non-overlapping catalogs and with different positional uncertainties. It extends LYR (Nanni et al. 2020; Peca et al. 2021).
 
 If you use LYRA, please cite Peca et al. (in prep.).
 
