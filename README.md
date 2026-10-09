@@ -2,7 +2,7 @@
 
 LyRA-2cat matches sources between one primary and one secondary astronomical catalog per run using positional information and, optionally, magnitude priors from a likelihood-ratio analysis. It does not accept a list of secondary catalogs in one invocation. It can work with overlapping or non-overlapping catalogs and with different positional uncertainties. It extends LYR (Nanni et al. 2020; Peca et al. 2021).
 
-If you use LYRA, please cite Peca et al. (in prep.).
+This is an earlier, two-catalog version of the n-way Lyra used in AGN-DB. The later version described in the paper treats multiple input catalogs as peers, without a designated primary catalog. If you use LyRA-2cat, please cite [Peca et al. (2026), *AGN-DB: A Unified Multi-Wavelength Database of Active Galactic Nuclei* (arXiv:2609.04322)](https://arxiv.org/abs/2609.04322).
 
 ## Requirements
 
@@ -81,4 +81,4 @@ With the example settings, LYRA writes the match table to `results/<filename_LR>
 
 ## License and contact
 
-This repository includes the GNU General Public License v3 in [LICENSE](LICENSE). For questions, contact alessandro.peca@miami.edu.
+This repository includes the GNU General Public License v3 in [LICENSE](LICENSE). For questions, contact peca.alessandro@gmail.com.
